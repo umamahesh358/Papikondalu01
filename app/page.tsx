@@ -8,6 +8,7 @@ import { LazyTestimonials, LazyNewsletter } from './components/LazyComponents'
 import CriticalCSS from './components/CriticalCSS'
 import Script from 'next/script'
 import { Metadata } from 'next'
+import PeopleAlsoAsk from './components/PeopleAlsoAsk'
 
 export const metadata: Metadata = {
   title: 'Papikondalu Tours | Best Boat Tours',
@@ -16,7 +17,13 @@ export const metadata: Metadata = {
     'Papikondalu', 'Papikondalu tours', 'Papikondalu boat tours', 'Papikondalu hills', 'Papikondalu tourism',
     'best Papikondalu tours', 'Papikondalu packages', 'Papikondalu cruise', 'Papikondalu hills tourism',
     'Papikondalu river cruise', 'Papikondalu boat ride', 'Papikondalu Godavari', 'Papikondalu Andhra Pradesh',
-    'Papikondalu Rajahmundry', 'Papikondalu booking', 'Papikondalu travel', 'Papikondalu adventure'
+    'Papikondalu Rajahmundry', 'Papikondalu booking', 'Papikondalu travel', 'Papikondalu adventure',
+    // New high-value keywords
+    'Papikondalu trip', 'Papikondalu tour packages', 'Papikondalu trip from Bhadrachalam', 'Papikondalu boating',
+    'Papikondalu boat booking', 'Papikondalu tour', 'Papikondalu boating price', 'Papikondalu from Hyderabad',
+    'Papikondalu distance', 'Papikondalu distance from Hyderabad', 'Papikondalu from Bhadrachalam',
+    'Papikondalu Boat ticket price from Bhadrachalam', 'Ap Tourism Papikondalu', 'Papikondalu telangana',
+    'Rajahmundry to Papikondalu distance'
   ],
   openGraph: {
     title: 'Papikondalu Tours | Bhadradri Temple | East Godavari & Maredumalli Tourism Packages',
@@ -69,7 +76,13 @@ export default function Home() {
       <FeaturedAttractions />
       <SEOBoostContent />
       <SEOContent />
+      import PeopleAlsoAsk from './components/PeopleAlsoAsk'
+
+      // ... imports remain the same
+
+      // ... inside the component return
       <PackageShowcase />
+      <PeopleAlsoAsk />
       <LazyTestimonials />
       <LazyNewsletter />
     </>

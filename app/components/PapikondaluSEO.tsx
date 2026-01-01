@@ -14,9 +14,9 @@ export default function PapikondaluSEO() {
             Best <span className="text-blue-600">Papikondalu Tours</span> in Andhra Pradesh
           </h2>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            Experience the ultimate <strong>Papikondalu tourism</strong> with India&apos;s #1 <strong>Papikondalu tour operator</strong>. 
-            Our premium <strong>Papikondalu boat tours</strong> offer breathtaking views of the <strong>Papikondalu hills</strong> 
-            along the scenic Godavari River. Book authentic <strong>Papikondalu packages</strong> for an unforgettable 
+            Experience the ultimate <strong>Papikondalu tourism</strong> with India&apos;s #1 <strong>Papikondalu tour operator</strong>.
+            Our premium <strong>Papikondalu boat tours</strong> offer breathtaking views of the <strong>Papikondalu hills</strong>
+            along the scenic Godavari River. Book authentic <strong>Papikondalu packages</strong> for an unforgettable
             <strong>Papikondalu experience</strong>.
           </p>
         </div>
@@ -29,8 +29,8 @@ export default function PapikondaluSEO() {
               <h3 className="text-xl font-bold text-gray-900">Papikondalu Hills Tours</h3>
             </div>
             <p className="text-gray-700 mb-4">
-              Explore the magnificent <strong>Papikondalu hills</strong> with our expert guides. 
-              Our <strong>Papikondalu tours</strong> include scenic boat rides through the 
+              Explore the magnificent <strong>Papikondalu hills</strong> with our expert guides.
+              Our <strong>Papikondalu tours</strong> include scenic boat rides through the
               breathtaking <strong>Papikondalu landscape</strong>.
             </p>
             <Link href="/papikondalu-tours" className="text-blue-600 font-semibold hover:text-blue-700">
@@ -44,8 +44,8 @@ export default function PapikondaluSEO() {
               <h3 className="text-xl font-bold text-gray-900">Papikondalu Day Tours</h3>
             </div>
             <p className="text-gray-700 mb-4">
-              Perfect <strong>Papikondalu day tours</strong> from Rajahmundry. Experience the best 
-              <strong>Papikondalu boat tours</strong> with comfortable facilities and delicious meals 
+              Perfect <strong>Papikondalu day tours</strong> from Rajahmundry. Experience the best
+              <strong>Papikondalu boat tours</strong> with comfortable facilities and delicious meals
               during your <strong>Papikondalu adventure</strong>.
             </p>
             <Link href="/packages" className="text-green-600 font-semibold hover:text-green-700">
@@ -59,8 +59,8 @@ export default function PapikondaluSEO() {
               <h3 className="text-xl font-bold text-gray-900">Papikondalu Group Tours</h3>
             </div>
             <p className="text-gray-700 mb-4">
-              Organize memorable <strong>Papikondalu group tours</strong> for families and friends. 
-              Our <strong>Papikondalu tourism</strong> packages cater to all group sizes with 
+              Organize memorable <strong>Papikondalu group tours</strong> for families and friends.
+              Our <strong>Papikondalu tourism</strong> packages cater to all group sizes with
               customized <strong>Papikondalu experiences</strong>.
             </p>
             <Link href="/contact" className="text-purple-600 font-semibold hover:text-purple-700">
@@ -117,18 +117,18 @@ export default function PapikondaluSEO() {
             Book Your <span className="text-blue-600">Papikondalu Adventure</span> Today!
           </h3>
           <p className="text-xl text-gray-700 mb-6 max-w-3xl mx-auto">
-            Don&apos;t miss the opportunity to experience the best <strong>Papikondalu tours</strong> in Andhra Pradesh. 
+            Don&apos;t miss the opportunity to experience the best <strong>Papikondalu tours</strong> in Andhra Pradesh.
             Our <strong>Papikondalu tourism</strong> experts are ready to create your perfect <strong>Papikondalu package</strong>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/packages" 
+            <Link
+              href="/packages"
               className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               View Papikondalu Packages
             </Link>
-            <Link 
-              href="tel:+919848323488" 
+            <Link
+              href="tel:+919848323488"
               className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
             >
               Call for Papikondalu Booking
@@ -152,6 +152,7 @@ export default function PapikondaluSEO() {
                 <li>• <strong>Papikondalu group tours</strong> for corporate events</li>
               </ul>
             </div>
+
             <div>
               <h4 className="text-lg font-semibold text-gray-800 mb-3">Papikondalu Tour Features</h4>
               <ul className="space-y-2 text-gray-700">
@@ -162,9 +163,18 @@ export default function PapikondaluSEO() {
                 <li>• 24/7 <strong>Papikondalu booking</strong> support</li>
               </ul>
             </div>
+            <div className="md:col-span-2 mt-8 border-t pt-8">
+              <h4 className="text-lg font-semibold text-gray-800 mb-3">Planning Your Trip?</h4>
+              <p className="text-gray-700 leading-relaxed">
+                Wondering about the <strong>Papikondalu distance from Hyderabad</strong>? It is easily accessible via Rajahmundry or Bhadrachalam.
+                Most tourists prefer the <strong>Rajahmundry to Papikondalu distance</strong> route for its scenic beauty.
+                Check our latest <strong>Papikondalu boat booking price</strong> and reserve your seat for a comfortable journey.
+                We also offer pickup options for <strong>Papikondalu trip from Bhadrachalam</strong> upon request.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
